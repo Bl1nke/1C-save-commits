@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="ДатаПоследнейЗагрузки" id="1">
+			<DataPath>Объект.ДатаПоследнейЗагрузки</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаПоследнейЗагрузкиКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ДатаПоследнейЗагрузкиРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<Table name="Коммиты" id="4">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Коммиты</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="КоммитыКонтекстноеМеню" id="5"/>
+			<AutoCommandBar name="КоммитыКоманднаяПанель" id="6">
+				<ChildItems>
+					<Button name="КоммитыКомандаЗагрузитьКоммиты" id="41">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.КомандаЗагрузитьКоммиты</CommandName>
+						<ExtendedTooltip name="КоммитыКомандаЗагрузитьКоммитыРасширеннаяПодсказка" id="42"/>
+					</Button>
+					<Button name="КоммитыКомандаСохранитьНовыеКомииты" id="43">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.КомандаСохранитьНовыеКомииты</CommandName>
+						<ExtendedTooltip name="КоммитыКомандаСохранитьНовыеКомиитыРасширеннаяПодсказка" id="44"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="КоммитыРасширеннаяПодсказка" id="7"/>
+			<SearchStringAddition name="КоммитыСтрокаПоиска" id="8">
+				<AdditionSource>
+					<Item>Коммиты</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="КоммитыСтрокаПоискаКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="КоммитыСтрокаПоискаРасширеннаяПодсказка" id="10"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="КоммитыСостояниеПросмотра" id="11">
+				<AdditionSource>
+					<Item>Коммиты</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="КоммитыСостояниеПросмотраКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="КоммитыСостояниеПросмотраРасширеннаяПодсказка" id="13"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="КоммитыУправлениеПоиском" id="14">
+				<AdditionSource>
+					<Item>Коммиты</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="КоммитыУправлениеПоискомКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="КоммитыУправлениеПоискомРасширеннаяПодсказка" id="16"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="КоммитыНомерСтроки" id="17">
+					<DataPath>Объект.Коммиты.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КоммитыНомерСтрокиКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="КоммитыНомерСтрокиРасширеннаяПодсказка" id="19"/>
+				</LabelField>
+				<InputField name="КоммитыАвтор" id="20">
+					<DataPath>Объект.Коммиты.Автор</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КоммитыАвторКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="КоммитыАвторРасширеннаяПодсказка" id="22"/>
+				</InputField>
+				<InputField name="КоммитыДатаКоммита" id="26">
+					<DataPath>Объект.Коммиты.ДатаКоммита</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КоммитыДатаКоммитаКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="КоммитыДатаКоммитаРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="КоммитыХЭШ" id="29">
+					<DataPath>Объект.Коммиты.ХЭШ</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КоммитыХЭШКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="КоммитыХЭШРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="КоммитыСобщениеКоммита" id="32">
+					<DataPath>Объект.Коммиты.СобщениеКоммита</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КоммитыСобщениеКоммитаКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="КоммитыСобщениеКоммитаРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="КоммитыПочтаАвтора" id="23">
+					<DataPath>Объект.Коммиты.ПочтаАвтора</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КоммитыПочтаАвтораКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="КоммитыПочтаАвтораРасширеннаяПодсказка" id="25"/>
+				</InputField>
+				<InputField name="КоммитыВетка" id="35">
+					<DataPath>Объект.Коммиты.Ветка</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КоммитыВеткаКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="КоммитыВеткаРасширеннаяПодсказка" id="37"/>
+				</InputField>
+				<InputField name="КоммитыКоммит" id="38">
+					<DataPath>Объект.Коммиты.Коммит</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КоммитыКоммитКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="КоммитыКоммитРасширеннаяПодсказка" id="40"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ЗагрузкаКоммитов</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="КомандаЗагрузитьКоммиты" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить коммиты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда загрузить коммиты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьКоммиты</Action>
+		</Command>
+		<Command name="КомандаСохранитьНовыеКомииты" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить новые комииты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда сохранить новые комииты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаСохранитьНовыеКомииты</Action>
+		</Command>
+	</Commands>
+</Form>
