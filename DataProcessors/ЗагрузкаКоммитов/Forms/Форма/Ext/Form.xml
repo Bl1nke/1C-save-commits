@@ -26,7 +26,7 @@
 					</Button>
 					<Button name="КоммитыКомандаСохранитьНовыеКомииты" id="43">
 						<Type>CommandBarButton</Type>
-						<CommandName>Form.Command.КомандаСохранитьНовыеКомииты</CommandName>
+						<CommandName>Form.Command.КомандаСохранитьНовыеКоммиты</CommandName>
 						<ExtendedTooltip name="КоммитыКомандаСохранитьНовыеКомиитыРасширеннаяПодсказка" id="44"/>
 					</Button>
 				</ChildItems>
@@ -139,20 +139,20 @@
 			</ToolTip>
 			<Action>ЗагрузитьКоммиты</Action>
 		</Command>
-		<Command name="КомандаСохранитьНовыеКомииты" id="2">
+		<Command name="КомандаСохранитьНовыеКоммиты" id="2">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Сохранить новые комииты</v8:content>
+					<v8:content>Сохранить новые коммиты</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Команда сохранить новые комииты</v8:content>
+					<v8:content>Команда сохранить новые коммиты</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>КомандаСохранитьНовыеКомииты</Action>
+			<Action>СохранитьНовыеКоммиты</Action>
 		</Command>
 	</Commands>
 </Form>

@@ -4,7 +4,7 @@
 		<Metadata name="Catalog.Ветки" id="d34c6111-6bff-491f-bb0b-c9ccc581719a" configVersion="16e55eabcbd43540a6e77bcb013dca4a00000000">
 			<Metadata name="Catalog.Ветки.Attribute.ПутьКУдаленномуРепозиторию" id="5de167a2-f0a1-4540-9e56-1ccd3a1a2db6"/>
 		</Metadata>
-		<Metadata name="Catalog.Коммиты" id="1415019f-e9f0-422a-8da6-14259be0c949" configVersion="f16c1692a8cb7c4db5ba87f134f9481e00000000">
+		<Metadata name="Catalog.Коммиты" id="1415019f-e9f0-422a-8da6-14259be0c949" configVersion="c60724fb48aab445bc3eaf2cdb8e85f800000000">
 			<Metadata name="Catalog.Коммиты.Attribute.ДатаКоммита" id="04f5a9db-a226-449e-9336-147d83bc52ed"/>
 			<Metadata name="Catalog.Коммиты.Attribute.Автор" id="0c3c3b80-368f-4c2f-831f-82ff3e26c6c8"/>
 			<Metadata name="Catalog.Коммиты.Attribute.ХЭШ" id="2f0ba15d-e6da-400c-8ec6-26e545e790d4"/>
@@ -14,8 +14,9 @@
 		</Metadata>
 		<Metadata name="Configuration.Конфигурация" id="f7c4ee5b-0749-4c59-a677-9a269128ddf3" configVersion="d62b6cd795036a49a8300f58ea60f8ad00000000"/>
 		<Metadata name="Configuration.Конфигурация.ManagedApplicationModule" id="5ce90b9a-610d-409d-ba1e-96784eb5ffc2.6" configVersion="7da4647c23556c40905418db17550a6f00000000"/>
-		<Metadata name="DataProcessor.ЗагрузкаКоммитов" id="33595eda-8090-43cf-a6df-d50340e578db" configVersion="e7d0ce38da76b940830cfb4f78d3c07600000000">
+		<Metadata name="DataProcessor.ЗагрузкаКоммитов" id="33595eda-8090-43cf-a6df-d50340e578db" configVersion="5db3a694732b784db61d860d5fc16f5100000000">
 			<Metadata name="DataProcessor.ЗагрузкаКоммитов.TabularSection.Коммиты" id="49b5ea0b-0eb0-48a4-9f18-b0c528c2c419"/>
+			<Metadata name="DataProcessor.ЗагрузкаКоммитов.Attribute.ТекущаяВетка" id="6d31ce4d-fcdc-4444-ad74-bee8852412d2"/>
 			<Metadata name="DataProcessor.ЗагрузкаКоммитов.TabularSection.Коммиты.Attribute.Ветка" id="a7e84c40-a511-4fd2-922f-4249ee33bba7"/>
 			<Metadata name="DataProcessor.ЗагрузкаКоммитов.TabularSection.Коммиты.Attribute.ПочтаАвтора" id="b03d1d5e-1cb8-4b51-8ae4-2c4646bc7a34"/>
 			<Metadata name="DataProcessor.ЗагрузкаКоммитов.TabularSection.Коммиты.Attribute.ХЭШ" id="b9a52b18-7ad0-426c-b874-4c72d940b4f5"/>
@@ -25,8 +26,8 @@
 			<Metadata name="DataProcessor.ЗагрузкаКоммитов.TabularSection.Коммиты.Attribute.Коммит" id="e6b133ee-7563-4499-a9e2-fd6b874e987a"/>
 			<Metadata name="DataProcessor.ЗагрузкаКоммитов.TabularSection.Коммиты.Attribute.СобщениеКоммита" id="f4e8c82c-34db-4c59-a06b-eb867c54e5c3"/>
 		</Metadata>
-		<Metadata name="DataProcessor.ЗагрузкаКоммитов.Form.Форма" id="08c5899b-dd16-497f-b7ac-9550ceed8671" configVersion="9b9f98b6fd5d1542ae3896b41d10994d00000000"/>
-		<Metadata name="DataProcessor.ЗагрузкаКоммитов.Form.Форма.Form" id="08c5899b-dd16-497f-b7ac-9550ceed8671.0" configVersion="d05bbbaeef245d41b301984e2b9063ea00000000"/>
+		<Metadata name="DataProcessor.ЗагрузкаКоммитов.Form.Форма" id="08c5899b-dd16-497f-b7ac-9550ceed8671" configVersion="5c5e3be8b7895e4ba7f2216f25b1d34f00000000"/>
+		<Metadata name="DataProcessor.ЗагрузкаКоммитов.Form.Форма.Form" id="08c5899b-dd16-497f-b7ac-9550ceed8671.0" configVersion="1b5f9de1ad265743ad8b5e837a6f83a400000000"/>
 		<Metadata name="Language.Русский" id="017c14c0-29f8-4d6f-850e-bced6726a9d9" configVersion="93c2f9588480ce43adca0e7f04ec3ced00000000"/>
 		<Metadata name="Style.Расш_СтильBAS" id="78f4b126-c5d8-433b-b202-8ae3cbd545f8" configVersion="9580ffca18d60c4b87ed973c41c25a0100000000"/>
 		<Metadata name="Style.Расш_СтильBAS.Style" id="78f4b126-c5d8-433b-b202-8ae3cbd545f8.0" configVersion="ddb61e72ea3f6340bcfa5067676ff8a000000000"/>
