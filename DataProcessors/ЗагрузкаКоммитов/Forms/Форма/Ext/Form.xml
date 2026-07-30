@@ -4,15 +4,42 @@
 	<ChildItems>
 		<InputField name="ПутьКРепозиторию" id="45">
 			<DataPath>Объект.ПутьКРепозиторию</DataPath>
+			<ChoiceButton>true</ChoiceButton>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ПутьКРепозиториюКонтекстноеМеню" id="46"/>
 			<ExtendedTooltip name="ПутьКРепозиториюРасширеннаяПодсказка" id="47"/>
+			<Events>
+				<Event name="StartListChoice">ОбъектПутьКРепозиториюНачалоВыбора</Event>
+			</Events>
 		</InputField>
 		<InputField name="ИмяВетки" id="48">
-			<DataPath>Объект.ИмяВетки</DataPath>
+			<DataPath>1/0:ea513a27-70ed-446b-bd05-ca294ae0ee8a</DataPath>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ИмяВеткиКонтекстноеМеню" id="49"/>
 			<ExtendedTooltip name="ИмяВеткиРасширеннаяПодсказка" id="50"/>
+		</InputField>
+		<InputField name="URLРепозитория" id="51">
+			<DataPath>Объект.URLРепозитория</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="URLРепозиторияКонтекстноеМеню" id="52"/>
+			<ExtendedTooltip name="URLРепозиторияРасширеннаяПодсказка" id="53"/>
+		</InputField>
+		<Button name="КоммитыКомандаКлонироватьРепозиторий" id="54">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.КомандаКлонироватьРепозиторий</CommandName>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Клонировать Репозиторий</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="КоммитыКомандаКлонироватьРепозиторийРасширеннаяПодсказка" id="55"/>
+		</Button>
+		<InputField name="ВыбраннаяВетка" id="56">
+			<DataPath>Объект.ВыбраннаяВетка</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВыбраннаяВеткаКонтекстноеМеню" id="57"/>
+			<ExtendedTooltip name="ВыбраннаяВеткаРасширеннаяПодсказка" id="58"/>
 		</InputField>
 		<InputField name="ДатаПоследнейЗагрузки" id="1">
 			<DataPath>Объект.ДатаПоследнейЗагрузки</DataPath>
@@ -165,6 +192,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>СохранитьНовыеКоммиты</Action>
+		</Command>
+		<Command name="КомандаКлонироватьРепозиторий" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Клонировать репозиторий</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда клонировать репозиторий</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КлонироватьРепозиторий</Action>
 		</Command>
 	</Commands>
 </Form>
