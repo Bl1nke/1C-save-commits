@@ -2,6 +2,18 @@
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<ChildItems>
+		<InputField name="ПутьКРепозиторию" id="45">
+			<DataPath>Объект.ПутьКРепозиторию</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПутьКРепозиториюКонтекстноеМеню" id="46"/>
+			<ExtendedTooltip name="ПутьКРепозиториюРасширеннаяПодсказка" id="47"/>
+		</InputField>
+		<InputField name="ИмяВетки" id="48">
+			<DataPath>Объект.ИмяВетки</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ИмяВеткиКонтекстноеМеню" id="49"/>
+			<ExtendedTooltip name="ИмяВеткиРасширеннаяПодсказка" id="50"/>
+		</InputField>
 		<InputField name="ДатаПоследнейЗагрузки" id="1">
 			<DataPath>Объект.ДатаПоследнейЗагрузки</DataPath>
 			<EditMode>EnterOnInput</EditMode>
@@ -99,14 +111,14 @@
 					<ExtendedTooltip name="КоммитыПочтаАвтораРасширеннаяПодсказка" id="25"/>
 				</InputField>
 				<InputField name="КоммитыВетка" id="35">
-					<DataPath>Объект.Коммиты.Ветка</DataPath>
+					<DataPath>1/0:49b5ea0b-0eb0-48a4-9f18-b0c528c2c419/0:a7e84c40-a511-4fd2-922f-4249ee33bba7</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="КоммитыВеткаКонтекстноеМеню" id="36"/>
 					<ExtendedTooltip name="КоммитыВеткаРасширеннаяПодсказка" id="37"/>
 				</InputField>
 				<InputField name="КоммитыКоммит" id="38">
-					<DataPath>Объект.Коммиты.Коммит</DataPath>
+					<DataPath>1/0:49b5ea0b-0eb0-48a4-9f18-b0c528c2c419/0:e6b133ee-7563-4499-a9e2-fd6b874e987a</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="КоммитыКоммитКонтекстноеМеню" id="39"/>
