@@ -27,8 +27,8 @@
 			<Metadata name="DataProcessor.ЗагрузкаКоммитов.Attribute.ПутьКРепозиторию" id="f2c3cbf2-fe34-4191-8291-ca2965837465"/>
 			<Metadata name="DataProcessor.ЗагрузкаКоммитов.TabularSection.Коммиты.Attribute.СобщениеКоммита" id="f4e8c82c-34db-4c59-a06b-eb867c54e5c3"/>
 		</Metadata>
-		<Metadata name="DataProcessor.ЗагрузкаКоммитов.Form.Форма" id="08c5899b-dd16-497f-b7ac-9550ceed8671" configVersion="d04d9bf6e4c2294a8991cad04fd9091b00000000"/>
-		<Metadata name="DataProcessor.ЗагрузкаКоммитов.Form.Форма.Form" id="08c5899b-dd16-497f-b7ac-9550ceed8671.0" configVersion="39521c6172ae9f4da782c859974fa31d00000000"/>
+		<Metadata name="DataProcessor.ЗагрузкаКоммитов.Form.Форма" id="08c5899b-dd16-497f-b7ac-9550ceed8671" configVersion="959103873aa5794bb20b384385f69ac800000000"/>
+		<Metadata name="DataProcessor.ЗагрузкаКоммитов.Form.Форма.Form" id="08c5899b-dd16-497f-b7ac-9550ceed8671.0" configVersion="95d8d0b58de9654dbd006d86f3894dff00000000"/>
 		<Metadata name="Language.Русский" id="017c14c0-29f8-4d6f-850e-bced6726a9d9" configVersion="93c2f9588480ce43adca0e7f04ec3ced00000000"/>
 		<Metadata name="Style.Расш_СтильBAS" id="78f4b126-c5d8-433b-b202-8ae3cbd545f8" configVersion="9580ffca18d60c4b87ed973c41c25a0100000000"/>
 		<Metadata name="Style.Расш_СтильBAS.Style" id="78f4b126-c5d8-433b-b202-8ae3cbd545f8.0" configVersion="ddb61e72ea3f6340bcfa5067676ff8a000000000"/>
